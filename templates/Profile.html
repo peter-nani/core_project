@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+
+<div class="container-fluid">
+    <div class="row justify-content-right">
+        <div class="col-md-5">
+            <img src="{% static 'images/6.jpg' %}" class="rounded mt-2" width="450" height="700">
+        </div>
+        <div class="col-md-6">
+            <div class="mx=auto p-5" style="width:600px">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h1>HI There! </h1>
+                <p>This is prasanna Kumar Vundaty [peter nani]
+                <p> Indian based python developer
+                    with an 5 years of work experinece on different projects</p>
+                <!--         <button href="{% url 'Know_more' %}" type="button" class="btn btn-dark">Know More..</button>-->
+                <a class="btn btn-dark" href="{% url 'Know_more' %}">Know More..</a>
+            </div>
+        </div>
+        <div class="col-md-1">
+            <div class="para">
+                <p><a href="https://www.instagram.com/complex_pro/" target="_blank">
+                    <img src="{% static 'images/88.png' %}">
+                </a></p>
+            </div>
+        </div>
+
+        {% endblock %}

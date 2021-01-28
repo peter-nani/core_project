@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+<div class = 'container'>
+    <div class="row justify-content-md-center">
+<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+  <div class="card-header">CONTACT</div>
+  <div class="card-body">
+<!--    <h5 class="card-title">BestWay to contact</h5>-->
+    <p class="card-text">Best Way to contact is to call me: +91-9581662082</p>
+      <br>
+<p class="card-text">or Email me: peter.hack.on@gmail.com</p>
+      <a class="button" href="{% url 'Know_more' %}">Other Contacts</a>
+
+  </div>
+</div>
+</div>
+</div>
+{% endblock %}
